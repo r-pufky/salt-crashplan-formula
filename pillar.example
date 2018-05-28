@@ -1,0 +1,19 @@
+crashplan:
+  lookup:
+    # see defaults.yaml for other values (don't touch), the options listed here
+    # are OK to set.
+    binary:
+      # place your binaries in files/, specify name and hash here.
+      linux: CrashPlanSmb_6.7.2_1512021600672_5609_Linux.tgz
+      linux_hash: 333b4073bdcd43bc618cfcb660d660d2430402cf30ddcad85cb2a01eb37846b6583d572fafc9c6168b2b7954280e00534b90db647c3269e95c9a2e3b7aba752a
+      osx: CrashPlanSmb_6.7.2_1512021600672_5609_Mac.dmg
+      osx_hash: 218f845d09eb4d1db7cd782ad150fc6b4c59c2f01110ca2ea6fe0ef58f55569ed1f08d1bf91cae2cac918b0d35392d1c03a00adce0a544806577370ac1d6f52a
+      windows: CrashPlanSmb_6.7.2_1512021600672_5609_Win64.msi
+      windows_hash: 01932d734f58e54bb6aeadc130d1798bdc4d94a521f64562085aa0c0996cd03373544602572277391c713baa49ff136062f8bb74d5f1bd71a1c76f52ec5658de
+
+    release:
+      # Set the appropriate version here. This will be used to detect updates.
+      version: 6.7.2_1512021600672_5609
+      binary_source: https://web-ham-msp.crashplanpro.com/client/installers/
+      reference_doc: https://support.code42.com/CrashPlan/5/Get_started/Install_the_Code42_app#Linux
+      uninstall_reinstall_doc: https://support.code42.com/CrashPlan/5/Troubleshooting/Uninstall_and_reinstall_the_Code42_app

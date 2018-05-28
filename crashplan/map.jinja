@@ -1,0 +1,3 @@
+{%- import_yaml "crashplan/defaults.yaml" as defaults -%}
+
+{%- set crashplan = salt['pillar.get']('crashplan:lookup', defaults.crashplan, merge=True) -%}
