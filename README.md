@@ -1,25 +1,17 @@
-# salt-crashplan-formula
-Manage crashplan with saltstack.
-========
-crasplan
-========
+Manage crashplan with saltstack
+-------------------------------
 
 Salt formula to install and configure crashplan.
 
-.. note::
+See the full `Salt Formulas installation and usage instructions
+http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html.
 
-    See the full `Salt Formulas installation and usage instructions
-    <http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html>`_.
+See pillar.example, defaults.yaml for setup.
 
-    See pillar.example, defaults.yaml for setup.
-
-    Download and add Crashplan binaries to `files/`.
+Download and add Crashplan binaries to `files/`.
 
 Available states
-================
-
-.. contents::
-    :local:
+----------------
 
 ``crashplan``
 -------------
