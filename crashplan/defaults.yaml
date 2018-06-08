@@ -6,6 +6,10 @@ crashplan:
     - gconf-service-backend
     - gconf2-common
     - libgconf-2-4
+    - libxss1
+    - libnss3
+    - libasound2
+    - libwebkitgtk-3.0-0
 
   binary:
     linux: CrashPlanSmb_6.7.2_1512021600672_5609_Linux.tgz
